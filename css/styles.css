@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.hero {
+    background-image: url(../img/bg-3.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: right center;
+    border-top: 1px solid rgb(145, 145, 145);
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 1px 3px 3px black;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}
+
+.card-section {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.secondsection {
+    background-color: white;
+}
+
+.secondsection p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+article p {
+    padding-top: 10px;
+}
+
+article h2 {
+    background-color: rgb(231, 231, 231);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(175, 175, 175);
+    height: 40px;
+}
+
+footer {
+    background-color: #808080;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 15px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.hero nav ul {
+    margin: 20px 25px 0px 0px;
+    text-align: right;
+}
+
+.hero nav ul li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+}
+
+.hero nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: rgba(100, 100, 100, 0.404);
+    padding: 10px;
+    border: 1px solid white;
+    letter-spacing: 1px;
+}
+
+.hero nav a:hover {
+    background-color: rgba(53, 53, 53, 0.548);
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    margin: 20px 0 0 0;
+}
+
+.card {
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+}
+
+.card1 .card2 .card3 {
+    margin-right: 1%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: rgb(68, 68, 68);
+    color: rgb(216, 216, 216);
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
